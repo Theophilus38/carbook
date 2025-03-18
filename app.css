@@ -1,0 +1,2814 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contactpage {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 7rem;
+}
+
+.aboutpage {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.blogpage {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 5rem;
+    position: relative;
+}
+
+.first {
+    background: top center/cover url(about-image.jpg);
+    width: 100%;
+    height: 80vh;
+}
+
+.firstt {
+    background: top center/cover url(about-image.jpg);
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.headings {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    align-self: center;
+    position: sticky;
+}
+
+.title {
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-note {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title-note-cont {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 0.5rem;
+}
+
+.title-note-cont a {
+    text-decoration: none;
+    color: #7c7a7a;
+    font-size: 0.9rem;
+    font-weight: 620;
+}
+
+.title-note .footnote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.title h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title span {
+    color: #05d18d;
+}
+
+.pages {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.pages a {
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.pages a:hover {
+    color: #05d18d;
+}
+
+.second {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-cont {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 80vh;
+}
+
+.address1 {
+    width: 100%;
+    height: 20vh;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.address1-cont,
+.phone-cont,
+.email-cont {
+    width: 80%;
+    border: 1px solid #d6d5c9;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+.p-cont {
+    width: 70%;
+    border-radius: 3px;
+}
+
+.address .p1 {
+    color: gray;
+}
+
+.form {
+    width: 55%;
+    background-color: #f2f4f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-cont {
+    width: 85%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-cont input {
+    width: 100%;
+    height: 7vh;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 20vh;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+
+.form button {
+    background-color: #1e96fc;
+    width: 30%;
+    height: 9vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+.third {
+    width: 100%;
+    height: 90Vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.third-cont {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.third-cont-sevices {
+    width: 80%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-cont-sevices1 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.div1 {
+    width: 20%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.div1 h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 span {
+    color: #05d18d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 p {
+    color: #d6d5c9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.div1-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div2 {
+    width: 18%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.div2 .others {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.div2 .p1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div2 p {
+    color: #d6d5c9;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div3 {
+    width: 18%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.div3 .p1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div3 p {
+    color: #d6d5c9;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div3 .others {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.div4 {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: 1px solid whit;
+}
+
+
+.div4 .p1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div4 p {
+    color: #d6d5c9;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.others4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.othersppp {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+
+.othersppp .p11 {
+    color: #d6d5c9;
+    font-size: 1rem;
+
+}
+
+.icons {
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.icons i {
+    color: white;
+
+}
+
+.othersppp .p2 {
+    font-weight: 500;
+    color: white;
+}
+
+.othersppp .p3 {
+    font-weight: 500;
+    color: white;
+}
+
+
+.fa-envelope {
+    position: relative;
+    bottom: 3rem;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: #d6d5c9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.boddyy {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage {
+    background: center/cover url(bigcar.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.homepage-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    bottom: 28rem;
+}
+
+.homepage-note {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.homepage-div h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage-note p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+.homepage-cont1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.slant-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+}
+
+.clipped {
+    position: absolute;
+    width: 100%;
+    height: 300vh;
+    bottom: -20rem;
+    background-color: #d6ccc2;
+    clip-path: polygon(0% 46%, 100% 40%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.general {
+    width: 80%;
+    position: relative;
+    height: 80vh;
+    bottom: 22rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.general .left {
+    width: 40%;
+    height: 75vh;
+    border-radius: 3px;
+    background-color: #0e89ff;
+    align-self: center;
+}
+
+.general .right {
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-self: center;
+    border-radius: 0.3rem;
+}
+
+.left-form {
+    margin: 2.5rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.left-form .p1 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.location {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.location .p2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.left-form-head {
+    margin: 0;
+    padding: 0;
+}
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color:
+}
+
+.left-form input {
+    width: 100%;
+    height: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: inherit;
+    border-radius: 2px;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #595959;
+    outline: none;
+}
+
+input::placeholder {
+    color: #badbfe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pick,
+.drop {
+    width: 45%;
+    color: white;
+    font-weight: 500;
+}
+
+.left-form button {
+    height: 7vh;
+    background-color: #05d18d;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: none;
+}
+
+.right-cont1 {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    gap: 2rem;
+    align-self: center;
+
+}
+
+.right-contp p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.iconsss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons1 {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+.iconsss img {
+    width: 60%;
+    border: 1px solid #f4f5f6;
+    border-radius: 50%;
+    padding: 2rem;
+    align-self: center;
+}
+
+.icons1 p {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.right-cont1 .last {
+    width: fit-content;
+    background-color: #0e89ff;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.last .notes {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.animations {
+    width: 100%;
+    height: 70vh;
+    z-index: 2;
+    position: relative;
+    bottom: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.animation-cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 3.5rem;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.animation-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.animation-cont .p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0e89ff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+.animation-cont .p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.animation-cars {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.animation-cars .div1 {
+    width: 32%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+}
+
+.animation-cars img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 3px;
+}
+
+.img-note {
+    width: 80%;
+    margin: 0 auto;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-note .carbrand {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.img-note .p1 {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.img-note .p2 {
+    color: #0e89ff;
+    font-size: 1.1rem;
+}
+
+.img-note span {
+    color: #7c7a7a;
+}
+
+.carbrand .p1 {
+    font-size: 0.8rem;
+    color: #8d99ae;
+}
+
+.img-note .booknow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.booknow {
+    margin-top: 1rem;
+}
+
+.booknow .p1 {
+    background-color: #0e89ff;
+    width: fit-content;
+    color: white;
+    padding: 0.3rem 2.5rem;
+    border-radius: 2px;
+}
+
+.booknow .p2 {
+    background-color: #05d18d;
+    width: fit-content;
+    color: white;
+    padding: 0.3rem 2.5rem;
+    border-radius: 2px;
+}
+
+@keyframes fadeout to {
+    opacity: 0;
+    visibility: hidden;
+}
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.welcome {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 10rem;
+}
+
+.welcome-about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-cont {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcome-cont-about {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.welcomerightdiv {
+    width: 75%;
+    height: 100vh;
+    background-color: #05d18d;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomeleftdiv {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 7rem;
+}
+
+.welcomeleftdiv1 {
+    margin: 7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.welcomerightdiv-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.welcomeleftdiv img {
+    width: 100%;
+    height: 70vh;
+}
+
+.welcomerightdiv-cont p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d6ccc2;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.welcomerightdiv-cont h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.welcomerightdiv-notes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.welcomerightdiv-notes .last {
+    width: fit-content;
+    background-color: #0e89ff;
+    color: white;
+}
+
+.welcomerightdiv-notes .last p {
+    margin: 1rem 1rem;
+}
+
+.services1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.headd {
+    width: 80%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.headp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.headd .p1 {
+    color: #0e89ff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    gap: 1.5rem;
+}
+
+.headd .p2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.services-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.services-contdivs {
+    width: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8d99ae;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services-contdivs img {
+    background-color: #0e89ff;
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.services-contdivs .title-div {
+    color: black;
+}
+
+.services-contdivs .pp1 {
+    line-height: 1.7rem;
+}
+
+.driverandclients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+    background-color: #d6ccc2;
+    gap: 5rem;
+}
+
+.driverandclients-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    background-color: black;
+}
+
+.driver {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.driver .left {
+    width: 40%;
+    height: 50vh;
+    background-color: #05d18d;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0 100%);
+    z-index: 1;
+    position: absolute;
+    /* it is the absolute positioning that stops it from taking up space and therefore makes it overlap through the z-index*/
+}
+
+.driver .right {
+    width: 100%;
+    height: 50vh;
+    background: top/cover url(about.jpg);
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.driver .right-cont {
+    width: 28%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    left: 20%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-cont .apply {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.right-cont .become {
+    background-color: #0e89ff;
+    width: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 60vh;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+
+.scroll-content {
+    display: flex;
+    transition: 0.5s ease;
+}
+
+.scroll1 {
+    min-width: 100%;
+    height: 30vh;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+#item1:checked~.scroll-content {
+    transform: translateX(0);
+}
+
+#item2:checked~.scroll-content {
+    transform: translateX(-100%);
+}
+
+#item3:checked~.scroll-content {
+    transform: translateX(-200%);
+}
+
+#item4:checked~.scroll-content {
+    transform: translateX(-300%);
+}
+
+#item5:checked~.scroll-content {
+    transform: translateX(-400%);
+}
+
+
+.scroll1div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.scroll1-cont {
+    width: 32%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.scroll1-cont img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.clients-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonies {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #0e89ff;
+    letter-spacing: 0.2rem;
+}
+
+.happy {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.scroll1-cont .comment {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ccc5b9;
+}
+
+.scroll1-cont-content .name {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.scroll1-cont-content .position {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #0e89ff;
+    font-weight: 500;
+}
+
+.scroll1-cont-content {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.scroll1-cont-content .roger {
+    margin: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog {
+    width: 100%;
+    height: 85vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.blog .clients-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+
+.blog p {
+    font-weight: 650;
+}
+
+.blog-pictures {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    width: 32%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.image img {
+    width: 100%;
+    height: 40vh;
+}
+
+.image .p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0e89ff;
+    font-weight: 500;
+}
+
+.image .p2 {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.image button {
+    color: white;
+    background-color: #0e89ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0;
+}
+
+.number {
+    width: 100%;
+    height: 130vh;
+    background-color: #edede9;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.number-cont {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.number-cont .left {
+    width: 30%;
+    height: 40vh;
+    background-color: #a2d2ff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.number-cont .right {
+    width: 50%;
+    height: 40vh;
+    background-color: #edede9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.left1 {
+    width: 28%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.left1 .p1 {
+    width: 28%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    color: #0077b6;
+    font-size: 2.5rem;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left1 .p2 {
+    font-size: 0.9rem;
+    color: #8d99ae;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right1 {
+    width: 25%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.right1 .p1 {
+    width: 30;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    color: #0077b6;
+    font-size: 2.5rem;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right1 .p2 {
+    font-size: 0.9rem;
+    color: #8d99ae;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.price {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.listing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.left-table {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-table {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-table-list1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.list1-a {
+    width: 33.3%;
+    height: 15vh;
+    background-color: #219ebc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.list1-b {
+    width: 33.3%;
+    height: 15vh;
+    background-color: #343a40;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.list1-c {
+    width: 33.3%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.right-table-list2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.list2 {
+    width: 33.3%;
+    height: 25vh;
+    background-color: #d6d5c9;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.list22 {
+    width: 33.3%;
+    height: 25vh;
+    background-color: #d6d5c9;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list2:hover {
+    background-color: #05d18d;
+}
+
+.list2-a {
+    width: 100%;
+    height: 1vh;
+    background-color: #219ebc;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.list2-aa {
+    width: 80%;
+    height: 8vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list2-aa .p1 {
+    color: #219ebc;
+    font-weight: 500;
+}
+
+.list2-aa span {
+    color: #6c757d;
+}
+
+.list2-aa .p2 {
+    color: #343a40;
+}
+
+.list2-b {
+    width: 100%;
+    height: 1vh;
+    background-color: #343a40;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.list2-c {
+    width: 100%;
+    height: 1vh;
+    background-color: black;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.left-table .carss {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+.left-table .cars {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.cars img {
+    width: 46%;
+    height: 18vh;
+}
+
+.car-name {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.car-name .p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.car-name .p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.car-name span {
+    color: #05d18d;
+    font-size: 1.3rem;
+}
+
+.p3 {
+    color: #8d99ae;
+}
+
+.carslist {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.carslist1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carslist1-cont {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    border-radius: 3px;
+    gap: 1.3rem;
+    background-color: white;
+}
+
+.car-img {
+    width: 100%;
+}
+
+.pricee {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    background-color: #f0ebd8;
+}
+
+.pricee-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0ebd8;
+    height: 180vh;
+}
+
+.car-img {
+    width: 100%;
+    height: 32vh;
+}
+
+.car-img img {
+    width: 100%;
+    height: 32vh;
+}
+
+.car-title {
+    width: 90%;
+    height: 18vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.car-title1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.car-title p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.car-title1 .p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: #ccc5b9;
+}
+
+.car-title1 p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc5b9;
+}
+
+.car-title1 span {
+    color: #0077b6;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.book {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.book-cont1 {
+    width: 47%;
+    background-color: #0e89ff;
+    text-align: center;
+    height: 5vh;
+    align-content: center;
+    border-radius: 2px;
+}
+
+.book-cont2 {
+    width: 47%;
+    background-color: #05d18d;
+    text-align: center;
+    height: 5vh;
+    align-content: center;
+    border-radius: 2px;
+}
+
+.book-cont1 .p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.book-cont2 .p2 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.slide-cont {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.slide1 {
+    width: 12%;
+    height: 6vh;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.slide11 {
+    width: 12%;
+    height: 6vh;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    background-color: #0e89ff;
+}
+
+.slide11 p {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.slide1 p {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slide11 a {
+    color: white;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.slide1 a {
+    color: #0e89ff;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.slide-cont2 {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.slide2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.slide02 {
+    width: 12%;
+    height: 6vh;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.slide01 {
+    width: 12%;
+    height: 6vh;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    background-color: #0e89ff;
+}
+
+.slide01 p {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.slide02 p {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slide01 a {
+    color: white;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.slide02 a {
+    color: #0e89ff;
+    align-self: center;
+    justify-self: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.images-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cont1 {
+    width: 75%;
+    display: flex;
+    height: 130vh;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-cont1 img {
+    width: 100%;
+    height: 100vh;
+    border-radius: 3px;
+}
+
+.image-cont1 .p1 {
+    color: #0e89ff;
+    font-weight: 500;
+}
+
+.image-cont1 .p2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.image-cont1 .p3 {
+    text-align: center;
+}
+
+.image-cont1 .p5 {
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: #0e89ff;
+}
+
+.image-cont1 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.blognote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blognote-cont {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blognote-cont .left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.blognote-cont .rightt {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.leftnote {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.leftnote .p1 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftnote .p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc5b9;
+    font-size: 1.1rem;
+}
+
+.left .p3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc5b9;
+    font-size: 1.1rem;
+}
+
+.leftnote1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.leftnote1 .p1 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftnote1 .p2 {
+    color: #ccc5b9;
+    font-size: 1.1rem;
+}
+
+.leftnote2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.leftnote2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc5b9;
+    font-size: 1.1rem;
+}
+
+.search {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #595959;
+    border-radius: 1px;
+}
+
+.search i {
+    display: flex;
+    align-items: center;
+    color: #595959;
+    font-size: 0.8rem;
+    width: 10%;
+}
+
+.search .input {
+    width: 85%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: #595959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #595959;
+}
+
+.categories .p1 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.categories-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #edede9;
+    padding-bottom: 1rem;
+}
+
+.sub .p2 {
+    color: #edede9;
+}
+
+
+.Recent-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Recent-blog .p1 {
+    color: #595959;
+}
+
+.blogss {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.blogss .blog1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.blog1 img {
+    width: 35%;
+    height: 11vh;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.image-caption .logos {
+    color: #8d99ae;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    justify-content: space-between;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tag .p1 {
+    font-size: 1.2rem;
+    color: #212529;
+}
+
+.tags .p2 {
+    border: 1px solid #adb5bd;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border-radius: 2px;
+    float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Paragraph .p1 {
+    font-size: 1.2rem;
+    color: #212529;
+}
+
+.Paragraph .p2 {
+    font-size: 1.1rem;
+    color: #ccc5b9;
+}
+
+.left .ppp {
+    border: 1px solid #adb5bd;
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    border-radius: 2px;
+    float: left;
+    margin-right: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.george {
+    width: 100%;
+    background-color: #ccc5b9;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.george .person {
+    width: 25%;
+    margin: 2rem;
+}
+
+.person img {
+    width: 100%;
+    height: 20vh;
+}
+
+.person-name {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.person-name .p2 {
+    color: #495057;
+    line-height: 1.8rem
+}
+
+.commentss {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.commentss .p1 {
+    font-size: 2rem;
+}
+
+.commentss-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.commentss-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.commentss-cont img {
+    width: 7%;
+    height: 4vh;
+    border-radius: 50%
+}
+
+.commentss .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.p1p2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.p1p2 .p1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.p1p2 .p2 {
+    font-size: 0.8rem;
+    color: #0e89ff;
+    font-weight: 500;
+}
+
+.reply {
+    width: fit-content;
+    padding: 0.3rem;
+    background-color: #0e89ff;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    font-size: 0.7rem;
+}
+
+.commentss3-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.commentss3-cont img {
+    width: 7%;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.commentss4-cont {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+
+.commentss4-cont img {
+    width: 7%;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.commentss5-cont {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.commentss5-cont img {
+    width: 7%;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 2.5rem;
+}
+
+.write .p1 {
+    font-size: 1.5rem;
+}
+
+
+.message-div {
+    width: 100%;
+    height: 90vh;
+    background-color: #ccc5b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.details .p2 {
+    font-size: 0.9rem;
+}
+
+.details input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.details textarea {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.post {
+    color: white;
+    background-color: #0e89ff;
+    padding: 1rem;
+    font-size: 0.8rem;
+    width: fit-content;
+    font-weight: 500;
+    border: none;
+    border-radius: 1px;
+}
+
+.slant-section2 {
+    width: 100%;
+    height: 12vh;
+    position: relative;
+    background-color: white;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+
+}
+
+.clipped2 {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    background-color: #ccc5b9;
+    clip-path: polygon(0% 70%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.third1 {
+    position: relative;
+    height: 80vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    .first {
+        background: left/center url(about-image.jpg);
+    }
+
+    .contactpage {
+        gap: 10rem;
+    }
+
+    .headings {
+        width: 90%;
+    }
+
+    .pages {
+        width: 30%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .second-cont {
+        width: 100%;
+        flex-direction: column;
+        gap: em;
+        height: 100vh;
+    }
+
+    .address {
+        width: 100%;
+        gap: 1.1rem;
+    }
+
+    .address1 {
+        height: 10vh;
+    }
+
+    .form {
+        width: 100%;
+        height: 125vh;
+    }
+
+    .form-cont {
+        height: 50vh;
+    }
+
+    .form button {
+        height: 7vh;
+        width: 50%;
+    }
+
+    .third {
+        height: 180Vh;
+        gap: 3rem;
+    }
+
+    .third-cont {
+        flex-direction: column;
+        gap: 4rem;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 0;
+        height: 150vh;
+        width: 100%;
+    }
+
+    .div1 {
+        width: 95%
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+
+    .div4 {
+        width: 100%;
+    }
+
+    .div1-icons {
+        width: 50%;
+    }
+
+    .fa-map-marker {
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .fa-envelope {
+        position: relative;
+        bottom: 4.5rem;
+    }
+
+    .fa-phone {
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .aboutpage {
+        gap: 0
+    }
+
+    .welcome-about {
+        width: 100%;
+        height: 150vh;
+        background-color: #05d18d;
+    }
+
+    .welcome-cont-about {
+        width: 90%;
+        height: 100vh;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .welcomeleftdiv {
+        width: 100%;
+        position: relative;
+        left: 0;
+        margin-top: 5rem;
+    }
+
+    .welcomerightdiv {
+        width: 100%;
+    }
+
+    .welcomeleftdiv img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .welcomeleftdiv1 {
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .driver .left {
+        width: 0;
+    }
+
+    .driver .right {
+        justify-content: start;
+    }
+
+    .driver .right-cont {
+        width: 70%;
+        position: relative;
+        left: 0;
+        margin-left: 1.5rem;
+    }
+
+    .scroll-container {
+        width: 95%;
+    }
+
+    .scroll1 {
+        width: 100%;
+    }
+
+    .scroll1div {
+        width:
+    }
+
+    .scroll1-cont {
+        width: 100%;
+    }
+
+    .driverandclients {
+        height: 150vh;
+    }
+
+    .number-cont {
+        flex-direction: column;
+        height: 100vh;
+        background-color: white;
+        gap: 1.1rem;
+    }
+
+    .number-cont .right {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 2rem;
+        justify-content: start;
+        background-color: inherit;
+        align-items: start;
+        margin-left: 1.1rem;
+    }
+
+    .number-cont .left {
+        background-color: inherit;
+        height: 8vh;
+        margin-bottom: 1rem;
+        width: 50%;
+        justify-content: start;
+        margin-left: 0;
+    }
+
+    .number .left1 {
+        width: 50%;
+        gap: 2rem;
+    }
+
+    .image-cont1 {
+        width: 95%;
+        display: flex;
+        height: 115vh;
+        flex-direction: column;
+        gap: 1rem;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .image-cont1 img {
+        width: auto;
+        height: 80vh;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .slide-cont2 {
+        width: 73%;
+    }
+
+    .slide02,
+    .slide01 {
+        width: 12%;
+        height: 4vh;
+    }
+
+    .blognote-cont {
+        width: 95%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .blognote-cont .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .george {
+        height: 45vh;
+    }
+
+    .george .person {
+        width: 20%;
+        margin: 1rem;
+    }
+
+    .person-name {
+        width: 80%;
+    }
+
+    .person img {
+        height: 7vh;
+    }
+
+    .person-name .p1 {
+        font-size: 1.5rem;
+    }
+
+
+    .commentss3-cont {
+        margin-left: 2rem;
+        width: fit-content;
+    }
+
+    .commentss3-cont img {
+        height: 3vh;
+    }
+
+    .commentss4-cont {
+        width: fit-content;
+    }
+
+    .commentss4-cont img {
+        height: 3vh;
+    }
+
+    .commentss5-cont img {
+        height: 3vh;
+    }
+
+    .blognote-cont .rightt {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin: 0 auto;
+    }
+
+    .blogpagebody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slant-section2 {
+        position: relative;
+        top: 3rem;
+    }
+
+    .clipped2 {
+        height: 7vh;
+    }
+
+    .third1 {
+        height: 170vh;
+    }
+
+    .carslist {
+        width: 95%;
+    }
+
+    .carslist1 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .carslist1-cont {
+        width: 100%;
+    }
+
+    .slide-cont {
+        width: 70%;
+    }
+
+    .slide1,
+    .slide11 {
+        height: 4vh;
+    }
+
+    .table {
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 15rem;
+    }
+
+    .left-table .cars {
+        width: 230%;
+        border-bottom: 1px solid #cad2c5;
+    }
+
+    .left-table {
+        width: 150%;
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .cars img {
+        height: 12vh;
+    }
+
+    .table .right-table {
+        width: 200%;
+    }
+
+    .table .right-table-list1 {
+        width: 120%;
+    }
+
+    .table .right-table-list2 {
+        width: 120%;
+    }
+
+    .price {
+        gap: 3rem;
+    }
+
+    .services1 {
+        align-items: center;
+    }
+
+    .headd {
+        width: 100%;
+    }
+
+    .headp {
+        width: 70%;
+        align-self: center;
+    }
+
+    .headp .p2 {
+        font-size: 2rem;
+    }
+
+
+    .services-cont {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .services-contdivs {
+        width: 100%;
+    }
+
+    .driverandclients-services {
+        flex-direction: column;
+        height: 212vh;
+    }
+
+    .third-cont-sevices {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150vh;
+        margin-top: 5rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .third-cont-sevices1 {
+        flex-direction: column;
+        gap: 4rem;
+        margin-left: 0.5rem;
+    }
+}
