@@ -2491,7 +2491,7 @@ input::placeholder {
 
     .aboutpage {
         gap: 0;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .welcome-about {
@@ -2822,7 +2822,7 @@ input::placeholder {
     }
 
     .pricee {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .price {
