@@ -2491,6 +2491,8 @@ input::placeholder {
 
     .aboutpage {
         gap: 0;
+        overflow-x: hidden;
+        width: 100vw;
     }
 
     .welcome-about {
