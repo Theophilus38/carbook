@@ -2491,7 +2491,7 @@ input::placeholder {
 
     .aboutpage {
         gap: 0;
-        overflow: hidde
+        overflow-x: hidden;
     }
 
     .welcome-about {
@@ -2827,5 +2827,9 @@ input::placeholder {
 
     .price {
         overflow: hidden;
+    }
+
+    .third .footer {
+        border: 1px solid white;
     }
 }
