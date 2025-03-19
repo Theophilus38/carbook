@@ -1116,7 +1116,7 @@ input::placeholder {
 .scroll1 {
     min-width: 100%;
     height: 30vh;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x manatory;
     -ms-overflow-style: none;
 }
 
