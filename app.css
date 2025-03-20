@@ -2526,7 +2526,7 @@ input::placeholder {
 
     .aboutpagebodyy {
         width: 100%;
-        height: 601vh;
+        height: 610vh;
         display: flex;
         flex-direction: column;
     }
@@ -2635,6 +2635,15 @@ input::placeholder {
         margin-left: 0;
     }
 
+    .number1 {
+        height: 245vh;
+        margin-top: 4rem;
+    }
+
+    .number1 .third {
+        height: 187vh;
+    }
+
     .number .left1 {
         width: 50%;
         gap: 2rem;
@@ -2645,6 +2654,7 @@ input::placeholder {
         height: 100vh;
         background-color: white;
         gap: 1.1rem;
+        height: 50vh;
     }
 
     .number-cont1 .right {
@@ -2849,6 +2859,7 @@ input::placeholder {
 
     .services1 {
         align-items: center;
+        padding-top: 0;
     }
 
     .headd {
@@ -2861,7 +2872,7 @@ input::placeholder {
     }
 
     .headp .p2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
 
@@ -2877,35 +2888,38 @@ input::placeholder {
 
     .driverandclients-services {
         flex-direction: column;
-        height: 212vh;
+        height: 215vh;
     }
 
     .third-cont-sevices {
         flex-direction: column;
-        justify-content: space-between;
-        height: 150vh;
         margin-top: 5rem;
         margin-left: 0;
         width: 100%;
-        gap: 4rem;
+        gap: 5.5rem;
+        padding-bottom: 4rem;
+        height: 180vh;
     }
 
     .third-cont-sevices1 {
         flex-direction: column;
-        gap: 4rem;
+        gap: 3rem;
         margin-left: 0.5rem;
+        height: 130vh;
     }
 
     .pricee {
         overflow: hidden;
+        height: auto;
     }
 
     .price {
         overflow: hidden;
     }
-
+h
     .third-cont-sevices .footer {
         border: 1px solid white;
-        
+        position: relative;
+        top: 4rem;
     }
 }
