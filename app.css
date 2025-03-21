@@ -2443,6 +2443,7 @@ input::placeholder {
     .form {
         width: 100%;
         height: 125vh;
+        margin-top: 3rem;
     }
 
     .form-cont {
@@ -2909,10 +2910,12 @@ h
     .boddyy {
         overflow-x: hidden;
         height: fit-content;
+        border: 1px solid black;
     }
 
     .home {
         height: fit-content;
+        margin-right: 0;
     }
 
     .homepage {
@@ -2987,7 +2990,7 @@ h
     .animations {
         top: 30rem;
         overflow-x: hidden;
-        
+        box-sizing: border-box
     }
 
     .animation-cont {
