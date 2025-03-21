@@ -2426,7 +2426,7 @@ input::placeholder {
     .second-cont {
         width: 100%;
         flex-direction: column;
-        gap: em;
+        gap: 2rem;
         height: 100vh;
     }
 
@@ -2446,6 +2446,7 @@ input::placeholder {
 
     .form-cont {
         height: 50vh;
+        justify-content: center;
     }
 
     .form button {
@@ -2915,6 +2916,7 @@ h
 
     .homepage {
         background: bottom/center url(bigcar.jpg);
+        overflow-x: hidden;
     }
 
     .homepage-div {
@@ -2924,6 +2926,7 @@ h
     .clipped {
         bottom: -30rem;
         height: 290vh;
+        overflow-x: hidden;
     }
 
     .homepage-note {
@@ -2982,12 +2985,14 @@ h
 
     .animations {
         top: 30rem;
+        overflow-x: hidden;
         
     }
 
     .animation-cont {
         width: 100%;
         gap: 4.5rem;
+        max-height: fit-content;
     }
 
     .animation-div {
@@ -3004,7 +3009,6 @@ h
         overflow-x: auto;
         gap: 1rem;
         max-height: fit-content;
-
     }
 
     .animation-cars .div1 {
