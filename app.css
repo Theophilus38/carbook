@@ -2427,14 +2427,13 @@ input::placeholder {
         width: 100%;
         flex-direction: column;
         height: 100vh;
-        gap: 1rem;
+        gap: 3rem;
         justify-content: space-around;
     }
 
     .address {
         width: 100%;
         gap: 1.1rem;
-        border: 1px solid black;
         height: 35vh;
     }
 
