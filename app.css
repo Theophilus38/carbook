@@ -945,7 +945,7 @@ input::placeholder {
     margin: 1rem 1rem;
 }
 
-.services1 {
+.services1-home {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1100,7 +1100,7 @@ input::placeholder {
 
 .scroll-container {
     position: relative;
-    overflow: hidden;
+    overflow: hidde;
     width: 70%;
     height: 60vh;
     overflow-x: auto;
@@ -1111,10 +1111,12 @@ input::placeholder {
 .scroll-content {
     display: flex;
     transition: 0.5s ease;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .scroll1 {
-    min-width: 100%;
+    flex: 0 0 100%;
     height: 30vh;
     scroll-snap-type: x mandatory;
     -ms-overflow-style: none;
@@ -1124,34 +1126,11 @@ input::placeholder {
     display: none;
 }
 
-
-#item1:checked~.scroll-content {
-    transform: translateX(0);
-}
-
-#item2:checked~.scroll-content {
-    transform: translateX(-100%);
-}
-
-#item3:checked~.scroll-content {
-    transform: translateX(-200%);
-}
-
-#item4:checked~.scroll-content {
-    transform: translateX(-300%);
-}
-
-#item5:checked~.scroll-content {
-    transform: translateX(-400%);
-}
-
-
 .scroll1div {
-    width: 100%;
+    flex: 0 0 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x: auto;
 }
 
 .scroll1-cont {
@@ -2873,6 +2852,7 @@ input::placeholder {
 
     .headp .p2 {
         font-size: 1.7rem;
+        font-weight: 600;
     }
 
 
@@ -2888,7 +2868,7 @@ input::placeholder {
 
     .driverandclients-services {
         flex-direction: column;
-        height: 215vh;
+        height: 225vh;
     }
 
     .third-cont-sevices {
@@ -2896,7 +2876,7 @@ input::placeholder {
         margin-top: 5rem;
         margin-left: 0;
         width: 100%;
-        gap: 5.5rem;
+        gap: 8rem;
         padding-bottom: 4rem;
         height: 180vh;
     }
@@ -2922,4 +2902,187 @@ h
         position: relative;
         top: 4rem;
     }
+
+    .boddyy {
+        overflow-x: hidden;
+        height: fit-content;
+    }
+
+    .home {
+        height: fit-content;
+    }
+
+    .homepage {
+        background: bottom/center url(bigcar.jpg);
+    }
+
+    .homepage-div {
+        bottom: 17rem;
+    }
+
+    .clipped {
+        bottom: -34rem;
+    }
+
+    .homepage-note {
+        width: 90%;
+    }
+
+    .homepage-note p {
+        font-size: 1.2rem;
+    }
+
+    .general {
+        flex-direction: column;
+        width: 95%;
+        bottom: 15rem;
+    }
+
+    .general .left {
+        width: 100%;
+    }
+
+    .general .right {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .right-cont1 {
+        height: 90vh;
+        padding-top: 3rem;
+        width: 70%;
+        align-items: center;
+    }
+
+    .iconsss {
+        flex-direction: column;
+    }
+
+    .icons1 {
+        width: 100%;
+    }
+
+    .icons1 {
+        text-align: center;
+    }
+
+    .animations {
+        top: 22rem;
+        
+    }
+
+    .animation-cont {
+        width: 100%;
+        gap: 4.5rem;
+    }
+
+    .animation-div {
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    .animation-div .p2 {
+        font-size: 2rem;
+    }
+
+    .animation-cars {
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 1rem;
+
+    }
+
+    .animation-cars .div1 {
+        flex: 0 0 100%;
+        height: fit-content;
+        display: inline-block;
+    }
+
+     .welcome {
+        width: 100%;
+        height: 150vh;
+        background-color: #05d18d;
+        top: 20rem;
+    }
+
+    .welcome-cont {
+        width: 90%;
+        height: 100vh;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .services1-home {
+        position: relative;
+        top: 33rem;
+        height: 200vh;
+    }
+
+    .blog {
+        position: relative;
+        top: 45rem;
+        width: 100%;
+    }
+
+    .blog-pictures {
+        width: 90%;
+        flex-direction: column;
+        height: 183vh;
+        gap: 0;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        height: 30vh;
+    }
+
+    .number {
+        position: relative;
+        top: 102rem;
+    }
+
+    .clients {
+
+    }
+
+    .scroll-container {
+        width: 100%;
+    }
+
+    .scroll1 {
+        flex-wrap: nowrap;
+        display: block;
+    }
+
+    .scroll-content {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .scroll1div {
+        height: 60vh;
+        display: row;
+        flex-direction: row;
+        gap: 1rem;
+        max-height: 45vh;
+    }
+
+    .scroll1-cont {
+        gap: 1rem;
+        flex: 0 0 100%;
+        display: inline-block;
+        flex-direction: row;
+        max-height: 45vh;
+    }
+
+    .scroll1-cont-content {
+        flex: 0 0 100%;
+        height: 38vh;
+        justify-self: center;
+    }
+
 }
