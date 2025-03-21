@@ -2443,7 +2443,8 @@ input::placeholder {
     .form {
         width: 100%;
         height: 125vh;
-        margin-top: 3rem;
+        margin-top: 0rem;
+        padding-top: 0;
     }
 
     .form-cont {
