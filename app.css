@@ -2922,7 +2922,8 @@ h
     }
 
     .clipped {
-        bottom: -34rem;
+        bottom: -30rem;
+        height: 290vh;
     }
 
     .homepage-note {
@@ -2941,7 +2942,7 @@ h
         flex-direction: column;
         width: 95%;
         bottom: 15rem;
-        height: 165vh;
+        height: 175vh;
         gap: 0;
     }
 
@@ -2961,7 +2962,7 @@ h
 
     .right-cont1 {
         height: 90vh;
-        padding-top: 1rem;
+        padding-top: 0rem;
         width: 70%;
         align-items: center;
     }
@@ -2980,7 +2981,7 @@ h
     }
 
     .animations {
-        top: 22rem;
+        top: 30rem;
         
     }
 
@@ -3017,7 +3018,7 @@ h
         width: 100%;
         height: 150vh;
         background-color: #05d18d;
-        top: 28rem;
+        top: 33rem;
     }
 
     .welcome-cont {
@@ -3030,13 +3031,13 @@ h
 
     .services1-home {
         position: relative;
-        top: 44rem;
+        top: 47rem;
         height: 200vh;
     }
 
     .blog {
         position: relative;
-        top: 56rem;
+        top: 59rem;
         width: 100%;
     }
 
@@ -3057,7 +3058,7 @@ h
 
     .number {
         position: relative;
-        top: 113rem;
+        top: 113.5rem;
     }
 
     .scroll-container {
