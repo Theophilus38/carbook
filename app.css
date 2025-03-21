@@ -2426,7 +2426,6 @@ input::placeholder {
     .second-cont {
         width: 100%;
         flex-direction: column;
-        gap: 2rem;
         height: 100vh;
         justify-content: start;
     }
@@ -2911,7 +2910,6 @@ h
     .boddyy {
         overflow-x: hidden;
         height: fit-content;
-        border: 1px solid black;
     }
 
     .home {
