@@ -2427,12 +2427,15 @@ input::placeholder {
         width: 100%;
         flex-direction: column;
         height: 100vh;
-        justify-content: start;
+        gap: 1rem;
+        justify-content: space-around;
     }
 
     .address {
         width: 100%;
         gap: 1.1rem;
+        border: 1px solid black;
+        height: 35vh;
     }
 
     .address1 {
@@ -2441,7 +2444,7 @@ input::placeholder {
 
     .form {
         width: 100%;
-        height: 125vh;
+        height: 65vh;
         margin-top: 0rem;
         padding-top: 0;
     }
