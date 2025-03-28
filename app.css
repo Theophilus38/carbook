@@ -2973,7 +2973,7 @@ input::placeholder {
         overflow: hidden;
     }
 
-    h .third-cont-sevices .footer {
+    .third-cont-sevices .footer {
         position: relative;
         top: 4rem;
     }
@@ -3529,7 +3529,7 @@ input::placeholder {
     .image-cont1 {
         width: 95%;
         display: flex;
-        height: 115vh;
+        height: fit-content;
         flex-direction: column;
         gap: 1rem;
         overflow: hidden;
@@ -3773,7 +3773,7 @@ input::placeholder {
         overflow: hidden;
     }
 
-    h .third-cont-sevices .footer {
+    .third-cont-sevices .footer {
         border: 1px solid white;
         position: relative;
         top: 4rem;
@@ -3992,6 +3992,10 @@ input::placeholder {
         height: 38vh;
         justify-self: center;
     }
+
+    .images-cont {
+        gap: 5rem;
+    } 
 }
 
 
