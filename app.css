@@ -33,6 +33,10 @@
     background: top center/cover url(about-image.jpg);
     width: 100%;
     height: 80vh;
+    background-image: url(about-image.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
 }
 
 .firstt {
@@ -2403,6 +2407,10 @@ input::placeholder {
 @media (max-width: 320px) {
     .first {
         background: left/center url(about-image.jpg);
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 
     .contactpage {
@@ -3240,7 +3248,14 @@ input::placeholder {
 
     .images-cont {
         gap: 7rem;
-    } 
+    }
+
+    .driverandclients .right {
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
+    }
 
 }
 
@@ -3248,6 +3263,10 @@ input::placeholder {
 @media (min-width: 321px) and (max-width: 600px) {
     .first {
         background: left/center url(about-image.jpg);
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 
     .contactpage {
@@ -3994,13 +4013,24 @@ input::placeholder {
 
     .images-cont {
         gap: 5rem;
-    } 
+    }
+
+    .driverandclients .right {
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
+    }
 }
 
 
 @media (min-width: 601px) and (max-width: 768px) {
     .first {
         background: left/center url(about-image.jpg);
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 
     .contactpage {
@@ -4858,11 +4888,22 @@ input::placeholder {
     .aboutpage .driverandclients {
         height: 154vh
     }
+
+    .driverandclients .right {
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 900px) {
     .first {
         background: left/center url(about-image.jpg);
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 
     .contactpage {
@@ -5715,11 +5756,22 @@ input::placeholder {
     .aboutpage .driverandclients {
         height: 150vh
     }
+
+    .driverandclients .right {
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
+    }
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
     .first {
         background: left/center url(about-image.jpg);
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 
     .contactpage {
@@ -5895,7 +5947,7 @@ input::placeholder {
 
     .welcome-cont-about {
         width: 90%;
-        height: 100vh;
+        height: fit-content;
         justify-content: flex-end;
         flex-direction: row;
         display: flex;
@@ -5918,6 +5970,7 @@ input::placeholder {
         justify-content: flex-end;
         margin-top: 0;
         background-color: #05d18d;
+        height: fit-content;
     }
 
     .welcome-cont-about .welcomeleftdiv img {
@@ -5925,11 +5978,16 @@ input::placeholder {
         height: 60vh;
     }
 
+    .welcomerightdiv-notes {
+        height: 80vh;
+    }
+
     .welcomeleftdiv1 {
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 6rem;
         margin-left: 0;
         margin-right: 0;
+        height: 80vh;
     }
 
     .driver .left {
@@ -6001,7 +6059,7 @@ input::placeholder {
 
     .number1 {
         position: relative;
-        margin-top: -30%;
+        margin-top: 10%;
         height: fit-content;
     }
 
@@ -6029,12 +6087,11 @@ input::placeholder {
 
     .number-cont1 {
         flex-direction: row;
+        background-color: #caf0f8;
+        gap: 2rem;
         height: fit-content;
-        background-color: #a2d2ff;
-        gap: 1.2rem;
         align-items: center;
         justify-content: center;
-        margin-top: 20%;
     }
 
     .number-cont1 .right {
@@ -6042,17 +6099,16 @@ input::placeholder {
         margin-left: 0;
         gap: 1.2rem;
         background-color: inherit;
-        align-items: center;
+        width: 80%;
+        height: fit-content;
         margin-top: 0;
-        height: 40vh;
-        width: fit-content;
     }
 
     .number-cont1 .left {
         background-color: inherit;
-        height: 20vh;
-        width: 30%;
-        margin-left: 2.7rem;
+        height: 25vh;
+        width: 15%;
+        margin-left: 6rem;
     }
 
 
@@ -6079,8 +6135,8 @@ input::placeholder {
 
     .slide02,
     .slide01 {
-        width: 12%;
-        height: 4vh;
+        width: 8%;
+        height: 8vh;
     }
 
     .blognote-cont {
@@ -6108,7 +6164,7 @@ input::placeholder {
     }
 
     .person img {
-        height: 7vh;
+        height: 25vh;
     }
 
     .person-name .p1 {
@@ -6121,7 +6177,11 @@ input::placeholder {
     }
 
     .commentss3-cont img {
-        height: 3vh;
+        height: 6vh;
+    }
+
+    .commentss-cont img {
+        height: 6vh;
     }
 
     .commentss4-cont {
@@ -6129,11 +6189,15 @@ input::placeholder {
     }
 
     .commentss4-cont img {
-        height: 3vh;
+        height: 6vh;
     }
 
     .commentss5-cont img {
-        height: 3vh;
+        height: 6vh;
+    }
+
+    .blog1 img {
+        height: 25vh;
     }
 
     .blognote-cont .rightt {
@@ -6143,6 +6207,23 @@ input::placeholder {
         gap: 5rem;
         margin: 0 auto;
         overflow: hidden;
+    }
+
+    .image-caption {
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .image-caption .p2 {
+        font-size: 1.5rem;
+    }
+
+    .logos i {
+        font-size: 1.5rem;
+    }
+
+    .logos p {
+        font-size: 1.5rem;
     }
 
     .blogpagebody {
@@ -6197,8 +6278,8 @@ input::placeholder {
 
     .slide1,
     .slide11 {
-        height: 6vh;
-        width: 10%;
+        height: 8vh;
+        width: 8%;
     }
 
     .table {
@@ -6212,6 +6293,7 @@ input::placeholder {
     .left-table .cars {
         width: 230%;
         border-bottom: 1px solid #cad2c5;
+        height: 30vh;
     }
 
     .left-table {
@@ -6220,16 +6302,12 @@ input::placeholder {
         margin-left: 1rem;
     }
 
-    .cars img {
-        height: 12vh;
-    }
-
     .car-img {
-        height: 50vh;
+        height: 70vh;
     }
 
     .car-img img {
-        height: 50vh;
+        height: 70vh;
     }
 
     .table .right-table {
@@ -6242,6 +6320,16 @@ input::placeholder {
 
     .table .right-table-list2 {
         width: 120%;
+    }
+
+    .right-table-list2 .list22 {
+        height: 30vh;
+    }
+
+    .list1-a,
+    .list1-b,
+    .list1-c {
+        height: 20vh;
     }
 
     .price {
@@ -6588,6 +6676,19 @@ input::placeholder {
     }
 
     .aboutpage .driverandclients {
-        height: 110vh
+        height: fit-content;
+    }
+
+    .aboutpage .clients {
+        height: 95vh;
+        margin-top: 0;
+        justify-content: flex-start;
+    }
+
+    .driverandclients .right {
+        background-image: url(about-image.jpg);
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: color;
     }
 }
